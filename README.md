@@ -17,13 +17,13 @@ I didn't include the following in the initial build because of time constraint, 
 ### To run the program:
 1. In the command line terminal, navigate to the folder where the firewall.jar file exists
 2. Run the command "java -cp firewall.jar firewall.Driver -csvpath <CSVPATH>", where <CSVPATH> will be the full path of the csv input file
-**Example of correct command is: java -cp firewall.jar firewall.Driver -csvpath C:\Users\Documents\FirewallRules.csv**
-Program will have to be restarted if an incorrect command is entered, because it will display an error and terminate the program.
-3. Once the database finishes building (i.e when the constructor in firewall returns), you should see a "Enter command below: " prompt on screen
-4. Enter search command in the form "direction,protocol,port,ipaddress"
-**Do not include spaces in the search command, as the accepts_packet method expects well-formed input according to given spec**
-5. You would get the response "true" or "false", for the search result.
-6. When done, enter "exit" to exit the program gracefully
+3. **Example of correct command is: java -cp firewall.jar firewall.Driver -csvpath C:\Users\Documents\FirewallRules.csv**
+4. Program will have to be restarted if an incorrect command is entered, because it will display an error and terminate the program.
+5. Once the database finishes building (i.e when the constructor in firewall returns), you should see a "Enter command below: " prompt on screen
+6. Enter search command in the form "direction,protocol,port,ipaddress"
+7. **Do not include spaces in the search command, as the accepts_packet method expects well-formed input according to given spec**
+8. You would get the response "true" or "false", for the search result.
+9. When done, enter "exit" to exit the program gracefully
 
 
 Thanks for reading
