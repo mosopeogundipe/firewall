@@ -25,7 +25,7 @@ I didn't include the following in the initial build because of time constraint, 
 8. You would get the response "true" or "false", for the search result.
 9. When done, enter "exit" to exit the program gracefully
 
-##Team of interest:
+### Team of interest:
 I'm interested in the Platform and Policy teams.
 
 Thanks for reading
