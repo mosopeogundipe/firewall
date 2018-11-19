@@ -16,7 +16,7 @@ I didn't include the following in the initial build because of time constraint, 
 
 ### To run the program:
 1. In the command line terminal, navigate to the folder where the firewall.jar file exists
-2. Run the command "java -cp firewall.jar firewall.Driver -csvpath <CSVPATH>", where <CSVPATH> will be the full path of the csv input file
+2. Run the command "java -cp firewall.jar firewall.Driver -csvpath CSVPATH", where CSVPATH will be the full path of the csv input file
 3. **Example of correct command is: java -cp firewall.jar firewall.Driver -csvpath C:\Users\Documents\FirewallRules.csv**
 4. Program will have to be restarted if an incorrect command is entered, because it will display an error and terminate the program.
 5. Once the database finishes building (i.e when the constructor in firewall returns), you should see a "Enter command below: " prompt on screen
