@@ -25,7 +25,7 @@ public class CommandLineUtilities {
 		try  {
 			while(!(command = reader.readLine()).equals("exit"))
 			{
-				String [] commandSplit = command.split(",");	//array should contain only 4 elements.	
+				String [] commandSplit = command.split(",");	//should contain only 4 elements.	
 				if(commandSplit.length != 4)
 				{
 					System.out.println("Invalid command. " + "Command should be of the form \"direction,protocol,port,ipaddress\" ");
